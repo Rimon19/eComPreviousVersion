@@ -1,0 +1,74 @@
+/* tabletes */
+@media screen and(max-width:768px){
+    .mobilesize1{
+        cursor: pointer;
+        height: 46px;
+    }
+    /* .number{
+      width: 46%;
+    }
+    .showHide{
+        width: 46%; 
+    }
+    .top_right_header{
+        width: 46%; 
+    } */
+    .cartItem{
+        width: 46%;  
+    }
+    .readanimation{
+        height: 30%;
+       
+    }
+    .input-group{
+        width: 46%;
+    }
+
+    .numberandSearchbox{
+        width: 46%;
+    }
+    .logoAndemail{
+        width: 46%;
+    }
+}
+
+/* mobile */
+@media screen and(max-width:480px){
+    .mobilesize1{
+        cursor: pointer;
+        height: 40px;
+    }
+}
+@media screen and(max-width:481px){
+    .mobilesize1{
+        cursor: pointer;
+        height: 50px;
+    }
+   
+}
+
+@media screen and (min-width:340px) and (max-width:575px){
+    .top_right_header{
+        display: block;
+    }
+}
+
+.sticky {
+  padding-top:10px;
+  position: fixed;
+  top: 0;
+  width: 89%;
+  z-index:999999;
+  background-color: white;
+}
+
+.sticky2 {
+  position: fixed;
+  top: 75px;
+  width: 100%;
+  z-index:999999;
+  background-color: white;
+  margin-left: 57px;
+  
+}
+
